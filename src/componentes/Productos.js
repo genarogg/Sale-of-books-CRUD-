@@ -13,6 +13,7 @@ const Productos = () => {
     // Productos cuando el componente este listo
     const cargarProductos = () => dispatch(obtenerProductosAction());
     cargarProductos();
+    // eslint-disable-next-line
   }, []);
 
   // Acceder al state
